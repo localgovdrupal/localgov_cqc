@@ -10,7 +10,7 @@ use Drupal\Core\Field\FormatterBase;
  *
  * @FieldFormatter(
  *   id = "localgov_cqc_plain_formatter",
- *   label = @Translation("CQC Widget"),
+ *   label = @Translation("Plain text"),
  *   field_types = {"localgov_cqc_id"},
  * )
  */
@@ -23,7 +23,7 @@ final class PlainIdFormatter extends FormatterBase {
     $element = [];
     foreach ($items as $delta => $item) {
       $element[$delta] = [
-        '#plain_text' => $item->type . ': ' . $item->value,
+        '#plain_text' => $item->type . ': ' . $item->id,
       ];
     }
     return $element;

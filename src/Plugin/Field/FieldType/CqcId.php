@@ -15,7 +15,7 @@ use Drupal\Core\TypedData\DataDefinition;
  *   label = @Translation("CQC ID"),
  *   category = @Translation("General"),
  *   default_widget = "localgov_cqc_id_widget",
- *   default_formatter = "localgov_cqc_location_widget",
+ *   default_formatter = "localgov_cqc_widget_formatter",
  * )
  */
 final class CqcId extends FieldItemBase {

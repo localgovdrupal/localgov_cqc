@@ -13,10 +13,7 @@ See: https://www.drupal.org/node/895232 for further information.
 ## CONFIGURATION
 
 When adding a new field to an entity the type 'CQC ID' will be
-available, and display can be set to CQC Location widget.
-
-The widget works with Location IDs. Provider IDs might require a different
-widget that they can provide.
+available, and display can be set to CQC widget.
 
 ## MAINTAINERS
 

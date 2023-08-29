@@ -9,12 +9,12 @@ use Drupal\Core\Field\FormatterBase;
  * Plugin implementation of the 'CQC Widget' formatter.
  *
  * @FieldFormatter(
- *   id = "localgov_cqc_location_widget",
- *   label = @Translation("CQC Location Widget"),
+ *   id = "localgov_cqc_widget_formatter",
+ *   label = @Translation("CQC Widget"),
  *   field_types = {"localgov_cqc_id"},
  * )
  */
-final class LocationIdFormatter extends FormatterBase {
+final class CqcWidgetFormatter extends FormatterBase {
 
   /**
    * {@inheritdoc}
