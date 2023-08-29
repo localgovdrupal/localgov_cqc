@@ -1,0 +1,11 @@
+{
+    "name": "localgovdrupal/localgov_cqc",
+    "description": "LocalGovDrupal: Care Quality Commission integration.",
+    "type": "drupal-module",
+    "homepage": "https://github.com/localgovdrupal/localgov_cqc",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/core": "^9.4 || ^10"
+    }
+}
