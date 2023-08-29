@@ -1,0 +1,10 @@
+field.value.localgov_cqc_id:
+  type: mapping
+  label: Default value
+  mapping:
+    id:
+      type: label
+      label: 'ID'
+    type:
+      type: string
+      label: 'Type'
