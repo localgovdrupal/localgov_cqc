@@ -2,4 +2,4 @@ name: 'LocalGov CQC'
 type: module
 description: 'Care Quality Commission Location ID field'
 package: LocalGov Drupal
-core_version_requirement: ^10
+core_version_requirement: ^9.4|^10
